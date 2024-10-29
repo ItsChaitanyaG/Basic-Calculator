@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div id="Cal">
+        <input id="Display" readonly>
+        <div class="CalcBut">
+            <button onclick="appendToDisplay('/')" class="operator button">/</button>
+            <button onclick="appendToDisplay('9')" class="number button">9</button>
+            <button onclick="appendToDisplay('8')" class="number button">8</button>
+            <button onclick="appendToDisplay('7')" class="number button">7</button>
+            <button onclick="clearLastCharacter()" class="operator button">Del</button> 
+            <button onclick="appendToDisplay('*')" class="operator button">*</button>
+            <button onclick="appendToDisplay('6')" class="number button">6</button>
+            <button onclick="appendToDisplay('5')" class="number button">5</button>
+            <button onclick="appendToDisplay('4')" class="number button">4</button>
+            <button onclick="clearDisplay()" class="operator button">C</button> 
+            <button onclick="appendToDisplay('-')" class="operator button">-</button>
+            <button onclick="appendToDisplay('3')" class="number button">3</button>
+            <button onclick="appendToDisplay('2')" class="number button">2</button>
+            <button onclick="appendToDisplay('1')" class="number button">1</button>
+            <button onclick="appendToDisplay('.')" class="number button">.</button> 
+            <button onclick="appendToDisplay('+')" class="operator button">+</button>
+            <button onclick="disperc()" class="operator button">%</button>
+            <button onclick="appendToDisplay('0')" class="number button">0</button> <span></span>
+            <button onclick="calculate()" class="button">=</button>
+        </div>
+    </div>
+</body>
+</html>

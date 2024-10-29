@@ -1,0 +1,45 @@
+
+body {
+    background-image: url(bg.jpg);
+    background-size: 100%;
+    
+}
+
+div#Cal{
+    padding: 10px;
+    padding-top: 20px;
+    width: 360px;
+    height: 400px;
+    margin: 10px;
+    background-color: darkgray;
+    border-radius: 1cm;
+    box-sizing:border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+#Display{
+    text-align: right;
+    font-size: 2rem;
+    padding: 10px;
+    width: 315px;
+    border-radius: 5cm;
+    border-color: rgb(59, 59, 59);
+}
+
+.CalcBut{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    padding-top: 0.5cm;
+}
+
+button{
+    cursor: pointer;
+    height: 60px;
+    background-color: #666;
+    color: white;
+    border-radius: 1cm;
+    font-size: 1.5rem; 
+    transition: background-color 0.3s ease;
+    padding: 0.5cm;
+}
